@@ -35,7 +35,7 @@ else
   echo "**** Ioncube Loader extracted: /usr/local/ioncube ****"
 
   echo "zend_extension = /usr/local/ioncube/ioncube_loader_lin_${PHP_MAJOR_VERSION}.${PHP_MINOR_VERSION}.so" \
-    > /etc/php${PHP_MAJOR_VERSION}/conf.d/00-ioncube.ini
+    > /etc/php${PHP_MAJOR_VERSION}${PHP_MINOR_VERSION}/conf.d/00-ioncube.ini
   echo "**** Ioncube Loader PHP extension enabled: ioncube_loader_lin_${PHP_MAJOR_VERSION}.${PHP_MINOR_VERSION}.so ****"
 
   echo "**** Ioncube Loader Installed ****"
